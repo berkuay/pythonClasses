@@ -1,6 +1,6 @@
 class Item:
     pay_Rate = 0.8  # The pay rate after discount
-    all = []  # itemler için oluşturulan boş liste
+    all = []  # list is empty because there is no items
 
     def __init__(self, name: str, price: float, quantity=0):
         # Run validations to the received arguments
